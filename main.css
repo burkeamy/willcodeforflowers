@@ -1,0 +1,23 @@
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 2%;
+    padding-bottom: -1px;
+    border-bottom: green solid 3px;
+}
+
+.leafbutton {
+    padding: 1%;
+    margin: 1 1 -1 0;
+    background-color: lightgreen;
+    border-radius: 45%;
+    border: green solid .5px;
+    text-decoration: none;   
+}
+
+img {
+    float: left;
+    height: 130px;
+    margin: auto;
+}
+

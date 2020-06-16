@@ -1,2 +1,2 @@
 # willcodeforflowers
-blog about learning about coding and a love of plants
+This is the begining of a blog that documents my coding journey and hopefully helps people learn a little more about thier plants. 
