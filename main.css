@@ -1,3 +1,4 @@
+
 header {
     background-color: lightgray;
     text-align: center;
@@ -6,18 +7,79 @@ header {
     border-bottom: green solid 3px;
 }
 
+h1 {
+
+}
+
+nav {
+
+}
+
+.tagline {
+}
+
 .leafbutton {
     padding: 1%;
-    margin: 1 1 -1 0;
+    margin: 2 1 -1 0;
     background-color: lightgreen;
     border-radius: 45%;
     border: green solid .5px;
-    text-decoration: none;   
+    text-decoration: none;  
+    font-weight: bold;
 }
 
-img {
-    float: left;
+.leafbutton:hover {
+    background-color: white;
+    color: green;
+}
+
+.icon {
     height: 130px;
     margin: auto;
+    border: solid 1px plum;
+    float: left;
 }
 
+.left {
+    width: 10%;
+    height: 100%;
+    background-color: lightblue;
+    float: left;
+}
+
+main {
+    width: 80%;
+    background-color: honeydew;
+    padding: 1%;
+    height: 100%;
+    padding-left: 1%;
+    float: left;
+}
+
+.right {
+    background-color: yellow;
+    grid-area: right;
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+
+footer {
+   height: 5%;
+    background-color: purple;
+}
+
+/*.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'icon  h1 .'
+    'icon tagline .'
+    'icon nav . '
+    'left main right right'
+    'footer footer footer';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}*/
