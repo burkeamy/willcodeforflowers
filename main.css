@@ -52,7 +52,7 @@ nav {
 }
 
 .left {
-    width: 10%;
+    width: 9%;
     height: 100%;
     float: left;
     color: yellow;
@@ -68,10 +68,9 @@ main {
 }
 
 .right {
-    width: 10%;
+    width: 9%;
     height: 100%;
     float: right;
-    background-color: yellow;
 }
 
 footer {
@@ -100,6 +99,15 @@ footer {
         height: 50%;
         background-color: lightgray;
         z-index: 2;
+    }
+
+    .mobileBackground {
+        display: block;
+        width: 100%;
+        margin: 10%;
+        padding: 5%;
+        background-color: white;
+        list-style: none;
     }
 
     .menuButton {
