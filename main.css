@@ -1,5 +1,8 @@
 
 header {
+    position: sticky;
+    top: 0;
+    width: 100%;
     background-color: lightgray;
     text-align: center;
     padding: 2%;
@@ -55,10 +58,14 @@ nav {
     width: 9%;
     height: 100%;
     float: left;
-    color: yellow;
+}
+
+.vine {
+    width: 100%;
 }
 
 main {
+   
     width: 78%;
     background-color: honeydew;
     padding: 3%;
@@ -69,13 +76,16 @@ main {
 
 .right {
     width: 9%;
-    height: 100%;
+    height: fit-content;
     float: right;
 }
 
 footer {
-   height: 10%;
+    height: 8%;
     background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 2%;
 }
 
 @media (max-width: 600px) { 
