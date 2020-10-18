@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>willcodeforflowers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Will code for flowers blog page about landscaping and coding">
+        <link rel="stylesheet" type="text/css" media="screen" href="../main.css" /> 
+        <link rel = "icon" href = "../images/blueFlower.png" type = "image/x-icon">
+    </head>
+    <body>
+        <header>
+            <img class = "flowerIcon" src = "../images/blueFlower.png" alt = "blue aster">
+            <button id= "mobileMenu" onclick = "mobileNavMenu()">
+                <img src = "../images/menuButton.png" class = "menuButton" alt = "click for the menu">
+            </button> 
+            <div id = "mobileNavDisplay">
+                <ul class="mobileBackground">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../plantstuff.html">Plant Stuff</a></li>
+                    <li><a href = "../codestuff.html">Code Stuff</a></li>
+                    <li><a href = "../aboutme.html">About Me</a></li>
+                    <li><a href = "../contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <h1>('will code for flowers')</h1>
+            <p class= "tag-line">Learning to code : passion for flowers</p>
+            <nav>
+                <a class = "leafbutton" href = "../index.html">Home</a>
+               <a class = "leafbutton" href = "../plantstuff.html">Plant Stuff</a>
+               <a class = "leafbutton" href = "../codestuff.html">Code Stuff</a>
+               <a class = "leafbutton" href = "../aboutme.html">About Me</a>
+               <a class = "leafbutton" href = "../contactme.html">Contact Me</a>
+            </nav>            
+        </header>
+        <main>
+            <h2>Is CSS Grid Accessible?</h2>
+            <p><time datetime="2020-10-18">Oct. 18, 2020</p>
+            <p>I have been very hesitant to use CSS Grid. Sure, it organizes things nicely in a responsive way, but is 
+                it accessible? If you have used Grid, you know it is all about the div tag. That went against what I 
+                know about accessibility and semantic HTML. After some research, I wasn't able to find much information 
+                about this.  This made me want to dig a little deeper.
+            </p>
+            <figure>
+                <canvas id = "ticTacToe" width="300" height = "300"></canvas>
+                <figcaption>fig.1 Tic Tac Toe uses a grid system</figcaption>
+            </figure>
+            <p>This is not a post on how to use Grid. Plenty of folks have already done a fabulous job of teaching 
+                grid basics. For me, the best way was to copy and paste the w3schools grid lesson code into my IDE 
+                and play around with it. ( check it out here 
+                <a href = "https://www.w3schools.com/css/css_grid.asp" target="_blank">here</a> )
+            </p>
+            <p>I wanted to like Grid and use it when making websites.  I tried to use Grid with my semantic HTML as I was 
+                building sites. It never worked. My grid was always wrong. Somewhere during my process, I saw you have 
+                to add your div in with the semantic HTML to make it work. This is true, but it is still so many divs! 
+            </p>
+            <p>
+                This needed some testing. I created a basic site using Grid and semantic HTML, ran it through a Lighthouse 
+                test, and saw the result. It was my first time using Lighthouse. I had to make a few small changes but 
+                managed to get a 100 in the accessibility category.  
+            </p>
+            <figure>
+                <img class = "largerImage" src="../images/grid/grid.jpg" alt = "screenshot of a lighthouse test">
+                <figcaption>Fig 2 screen shot of my lighthouse test</figcaption>
+            </figure>
+            <p>
+                Then I removed the semantic HTML and just had a bunch of divs. This also scored 100. 
+            </p>
+            <p>
+                To be fair, it was a super simple site. I tried to mimic a real-world site with sections and small paragraphs. 
+                If you want to see the code it is on my github page (link here)
+            </p>
+            <p>
+                What did I learn? Grid is accessible based on lighthouse testing. Go forth and grid.
+            </p>
+        </main>
+        <footer>
+            <p>	&copy; Amy Burke 2020</p>
+        </footer>
+    </body>
+<script src = "../main.js"></script>
+<script src = "grid.js"></script>
+</html>
