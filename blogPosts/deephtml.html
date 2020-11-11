@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>willcodeforflowers - HTML deep cuts</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Will code for flowers blog page about landscaping and coding">
+        <link rel="stylesheet" type="text/css" media="screen" href="../main.css" /> 
+        <link rel = "icon" href = "../images/blueFlower.png" type = "image/x-icon">
+    </head>
+    <body>
+        <header>
+            <img class = "flowerIcon" src = "../images/blueFlower.png" alt = "blue aster">
+            <button id= "mobileMenu" onclick = "mobileNavMenu()">
+                <img src = "../images/menuButton.png" class = "menuButton" alt = "click for the menu">
+            </button> 
+            <div id = "mobileNavDisplay">
+                <ul class="mobileBackground">
+                    <li><a href = "../index.html">Home</a></li>
+                    <li><a href = "../plantstuff.html">Plant Stuff</a></li>
+                    <li><a href = "../codestuff.html">Code Stuff</a></li>
+                    <li><a href = "../aboutme.html">About Me</a></li>
+                    <li><a href = "../contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <h1>('will code for flowers')</h1>
+            <p class= "tag-line">Learning to code : passion for flowers</p>
+            <nav>
+                <a class = "leafbutton" href = "../index.html">Home</a>
+               <a class = "leafbutton" href = "../plantstuff.html">Plant Stuff</a>
+               <a class = "leafbutton" href = "../codestuff.html">Code Stuff</a>
+               <a class = "leafbutton" href = "../aboutme.html">About Me</a>
+               <a class = "leafbutton" href = "../contactme.html">Contact Me</a>
+            </nav>            
+        </header>
+        <main>
+            <h2>HTML, the deep cuts</h2>
+            <p><time datetime="2020-11-07">Nov. 7, 2020</p>
+            <p>
+                Most people know about the h1 tag and a p tag. Even the nav tag and article, section, and aside. 
+                There are about 250 HTML5 tags and most people only use maybe 20. That means there are over 200 
+                more available. 
+            </p>
+            <p>If you are reading this and you have no idea what I am talking about, this paragraph is for you. 
+                <dfn>HTML</dfn> or Hyper Text Markup Language is the main building block of the web. The latest version is 5. The short 
+                explanation is that HTML is made of tags nested in the greater than or less than sign. You can view the 
+                HTML of many websites by right clicking on the page and clicking on inspect. If you are looking for a 
+                more in depth description, check out <a href = "www.w3schools.com/html">w3schools.com</a>.
+            </p>
+            <figure>
+                <canvas id = "curve" width="300" ></canvas>
+                <figcaption>fig.1 Circles and curves drawn with canvas, just because</figcaption>
+            </figure>
+            <p>
+                Some of them, like the <code>canvas</code> tag, require javascript to work properly. There are a few <abbr title="application programming interface">API</abbr> available 
+                ones like web storage and geolocation. These also work along with javascript. 
+            </p>
+            <figure>
+                <img class = "largerImage" src = "https://i2.pickpik.com/photos/426/583/749/the-well-the-depth-of-the-bricked-old-preview.jpg" alt = "a deep well">
+                <figcaption>fig.2 A deep well from pickpik.com</figcaption>
+            </figure>
+            <p>
+                I have been using the figure tag with an image tag and a <code>figcaption</code> tag. This allows you to group your 
+                image with a caption and make it accessible at the same time.
+            </p>
+            <p>
+                If you are writing a scientific or math related post, you may want to use sub <sub>sub</sub> and sup 
+                <sup>sup</sup> to help with writing numbers. You might want to include some <u>underlined</u> text 
+                with a u tag.
+            </p>
+            <p>
+                If you include the time tag in your date, users can add it to their calendar. I used this at the top 
+                of the page with the date.
+            </p>
+            <p>
+                There is also a <code>code</code> tag you can use to represent a section of code. Who knew?
+            </p>
+            <p>
+                Are you adding a quote to your page? You can use the q tag for a short quote or the blockquote tag 
+                for a long quote. Below, I used <code>cite</code> for the author. This will put it in italics. Just defining something? 
+                Use the dfn tag. (I used this above when I defined HTML)
+            </p>
+            <section class = "quoteDemo">
+                <q>
+                    Be yourself; everyone else is already taken.
+                </q>
+                <cite> ― Oscar Wilde</cite>
+            </section>
+            <section class = "quoteDemo">
+                <blockquote>
+                     “Do not let your fire go out, spark by irreplaceable spark in the hopeless swamps of the not-quite, the not-yet, and the 
+                        not-at-all. Do not let the hero in your soul perish in lonely frustration for the life you deserved and have never been 
+                        able to reach. The world you desire can be won. It exists.. it is real.. it is possible.. it's yours.”
+                </blockquote>
+                <cite>― Ayn Rand, Atlas Shrugged</cite>
+            </section>
+            <p>
+                Just a few more. Have you ever heard of the <code>kbd</code> tag? It is for keyboard input. Use <code>abbr</code> for an 
+                abbreviation. The <code>address</code> tag can denote contact information. Go ahead and give them a try! (I didn't include the last 
+                three, but most of the others are on this page somewhere)
+            </p>
+        </main>
+        <footer>
+            <p>	&copy; Amy Burke 2020</p>
+        </footer>
+    </body>
+<script src = "../main.js"></script>
+<script src = "deephtml.js"></script>
+</html>
